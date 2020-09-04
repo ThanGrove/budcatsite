@@ -1,4 +1,8 @@
 
+# Buddhist Catalog Single Page Application
+This is the beginning prototype of a React SPA for delivering Buddhist catalog content from a JSONP API.
+It is being developed in conjuction with the Flask webapp budcatapi to deliever the API
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,5 +72,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-# budcatsite
-React site for delivering content from budcatapi
