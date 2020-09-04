@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import Main from './main/Main';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+export function AppLogo() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload, dude!
         </p>
         <a
           className="App-link"
@@ -21,6 +23,12 @@ function App() {
       </header>
     </div>
   );
+}
+
+function App() {
+  return (
+    <Main/>
+  )
 }
 
 export default App;
