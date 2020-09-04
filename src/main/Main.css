@@ -62,3 +62,8 @@ div.jsondata .modal-dialog {
 div.jsondata .modal-dialog pre {
     background: transparent;
 }
+
+.bo {
+    font-family: Jomolhari-ID, Jomolhari, "Tibetan Machine Uni" !important;
+    font-size: 130%;
+}

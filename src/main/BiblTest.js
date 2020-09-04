@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import UseApi from '../hooks/UseApi';
 import { Row, Col, Button, Modal} from "react-bootstrap";
-import Bibl from './Bibl'
+import Bibl from '../views/Bibl';
 
 function BiblTest(props) {
     const coll = props.coll;
